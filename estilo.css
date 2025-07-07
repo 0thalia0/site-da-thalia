@@ -1,0 +1,75 @@
+/*aqui esta os estilo padra do site*/
+*{
+    background-color: rgb(211, 199, 223);
+
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+
+    border: none;
+
+    margin: 30px;
+
+   text-decoration: none;
+}
+
+
+div{
+    display:inline-flex;
+
+    background-color: rgb(200, 177, 221);
+
+    margin-block: 3px;
+
+    border-radius: 5%;
+    
+
+}
+
+/* aqui altera as configuraçao dos botao de cada linque*/
+.botao{
+    text-decoration: none;
+
+    background-color: rgb(107, 107, 187);
+
+    text-align: center;
+
+    color: rgb(253, 253, 253);
+
+    border-radius: 6%;
+
+    font-size: 20px;
+
+}
+.img{
+
+    
+    text-align: center;
+}
+.botao:hover{
+    
+    background-color: rgb(27, 4, 70);
+
+     color:rgb(245, 245, 247);
+    
+     font-size: 30px;
+    
+}
+
+.p{
+    color: black;
+}
+
+table{
+    position: relative;
+
+    background-color: #dadada;
+
+    text-align: center;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+
+
+}
