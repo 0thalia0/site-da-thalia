@@ -1,5 +1,5 @@
 /*aqui esta os estilo padra do site*/
-*{
+*/*{
     background-color: rgb(211, 199, 223);
 
     font-family: 'Courier New', Courier, monospace;
@@ -70,6 +70,7 @@ table{
     border-radius: 5px;
 
     font-size: 20px;
+
 
 
 }
