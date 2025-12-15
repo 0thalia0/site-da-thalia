@@ -1,5 +1,5 @@
 /*aqui esta os estilo padra do site*/
-*/*{
+*{
     background-color: rgb(211, 199, 223);
 
     font-family: 'Courier New', Courier, monospace;
@@ -26,7 +26,7 @@ div{
 
 }
 
-/* aqui altera as configuraçao dos botao de cada linque
+/* aqui altera as configuraçao dos botao de cada linque*/
 .botao{
     text-decoration: none;
 
@@ -73,4 +73,4 @@ table{
 
 
 
-}*/
+}
