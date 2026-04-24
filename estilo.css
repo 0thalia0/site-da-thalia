@@ -1,76 +1,81 @@
-/*aqui esta os estilo padra do site*/
+/* RESET BÁSICO (correto) */
 *{
-    background-color: rgb(211, 199, 223);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    font-family: 'Courier New', Courier, monospace;
-
+/* BODY */
+body{
+    background-color: #0b1220;
+    font-family: 'Segoe UI', Arial, sans-serif;
     text-align: center;
+    color: #e5e7eb;
 
-    border: none;
-
-    margin: 30px;
-
-   text-decoration: none;
+    padding: 30px;
 }
 
-
+/* CONTAINERS */
 div{
-    display:inline-flex;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 
-    background-color: rgb(200, 177, 221);
+    background-color: #111827;
 
-    margin-block: 3px;
+    margin: 10px;
+    padding: 20px;
 
-    border-radius: 5%;
-    
+    border-radius: 10px;
 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
-/* aqui altera as configuraçao dos botao de cada linque*/
+/* BOTÕES */
 .botao{
     text-decoration: none;
 
-    background-color: rgb(107, 107, 187);
+    background-color: #6366f1;
 
-    text-align: center;
+    color: white;
 
-    color: rgb(253, 253, 253);
+    border-radius: 6px;
 
-    border-radius: 6%;
+    font-size: 18px;
 
-    font-size: 20px;
+    padding: 10px 20px;
 
+    transition: 0.2s;
 }
-.img{
 
-    
-    text-align: center;
-}
 .botao:hover{
-    
-    background-color: rgb(27, 4, 70);
-
-     color:rgb(245, 245, 247);
-    
-     font-size: 30px;
-    
+    background-color: #4f46e5;
+    transform: scale(1.05);
 }
 
+/* IMAGEM */
+.img{
+    text-align: center;
+}
+
+/* TEXTO */
 .p{
-    color: black;
+    color: #d1d5db;
 }
 
+/* TABELA */
 table{
-    position: relative;
-
-    background-color: #dadada;
+    background-color: #111827;
 
     text-align: center;
 
-    border-radius: 5px;
+    border-radius: 8px;
 
-    font-size: 20px;
+    font-size: 18px;
 
+    padding: 10px;
 
+    margin: 20px auto;
 
+    border: 1px solid rgba(255,255,255,0.05);
 }
